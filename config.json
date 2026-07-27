@@ -1,0 +1,257 @@
+{
+  "app_title": "Đánh Giá Tiềm Năng NST — Team VN",
+  "app_subtitle": "Chấm điểm theo 3 tuyến nội dung: NPC / Music / Beauty",
+  "teams": {
+    "VN": {
+      "label": "🇻🇳 Team VN",
+      "description": "Đánh giá theo 3 tuyến nội dung: NPC / Music / Beauty (15 câu, mỗi tuyến tối đa 25 điểm)",
+      "classification_type": "lane_analysis",
+      "submit_label": "✅ Gửi & nhận đề xuất ngách",
+      "progress_goal_text": "nhận đề xuất ngách",
+      "groups": [
+        {
+          "id": "vn_npc",
+          "title": "Nhóm A — Tín hiệu NPC (tối đa 25 điểm)",
+          "color": "#f5a623",
+          "questions": [
+            {
+              "id": "A1",
+              "text": "Biểu cảm khuôn mặt phong phú, người xem đọc được cảm xúc ngay cả khi không nói",
+              "note": "Quan sát trực tiếp, đừng hỏi suông",
+              "labels": {
+                "1": "Không đúng",
+                "2": "Ít đúng",
+                "3": "Tương đối đúng",
+                "4": "Đúng",
+                "5": "Rất đúng"
+              }
+            },
+            {
+              "id": "A2",
+              "text": "Phản ứng nhanh với comment và quà tặng, gần như tức thì",
+              "labels": {
+                "1": "Không đúng",
+                "2": "Ít đúng",
+                "3": "Tương đối đúng",
+                "4": "Đúng",
+                "5": "Rất đúng"
+              }
+            },
+            {
+              "id": "A3",
+              "text": "Thoải mái khi lặp lại cùng một chuỗi hành động mỗi ngày",
+              "labels": {
+                "1": "Không đúng",
+                "2": "Ít đúng",
+                "3": "Tương đối đúng",
+                "4": "Đúng",
+                "5": "Rất đúng"
+              }
+            },
+            {
+              "id": "A4",
+              "text": "Thích để người xem \"ra lệnh\" và mình làm theo, hơn là tự dẫn dắt câu chuyện",
+              "labels": {
+                "1": "Không đúng",
+                "2": "Ít đúng",
+                "3": "Tương đối đúng",
+                "4": "Đúng",
+                "5": "Rất đúng"
+              }
+            },
+            {
+              "id": "A5",
+              "text": "Có thể LIVE mỗi ngày với setup đơn giản tại nhà, không cần chuẩn bị nhiều",
+              "labels": {
+                "1": "Không đúng",
+                "2": "Ít đúng",
+                "3": "Tương đối đúng",
+                "4": "Đúng",
+                "5": "Rất đúng"
+              }
+            }
+          ]
+        },
+        {
+          "id": "vn_music",
+          "title": "Nhóm B — Tín hiệu Music (tối đa 25 điểm)",
+          "color": "#7c5cff",
+          "questions": [
+            {
+              "id": "B1",
+              "text": "Có kỹ năng trình diễn thật (hát, nhạc cụ, DJ) ở mức người lạ chịu nghe hết bài",
+              "labels": {
+                "1": "Không đúng",
+                "2": "Ít đúng",
+                "3": "Tương đối đúng",
+                "4": "Đúng",
+                "5": "Rất đúng"
+              }
+            },
+            {
+              "id": "B2",
+              "text": "Giữ được phong độ khi biểu diễn nhiều buổi liên tiếp trong tuần",
+              "note": "Chấm theo thể lực và giọng, không theo sở thích",
+              "labels": {
+                "1": "Không đúng",
+                "2": "Ít đúng",
+                "3": "Tương đối đúng",
+                "4": "Đúng",
+                "5": "Rất đúng"
+              }
+            },
+            {
+              "id": "B3",
+              "text": "Sẵn sàng chuẩn bị bài vở trước mỗi buổi, không hát tuỳ hứng",
+              "labels": {
+                "1": "Không đúng",
+                "2": "Ít đúng",
+                "3": "Tương đối đúng",
+                "4": "Đúng",
+                "5": "Rất đúng"
+              }
+            },
+            {
+              "id": "B4",
+              "text": "Tự tin khi đối đầu PK và không nản nếu thua vài trận đấu",
+              "labels": {
+                "1": "Không đúng",
+                "2": "Ít đúng",
+                "3": "Tương đối đúng",
+                "4": "Đúng",
+                "5": "Rất đúng"
+              }
+            },
+            {
+              "id": "B5",
+              "text": "Duy trì được lịch LIVE ≥ 4 ngày/tuần trong ít nhất một tháng gần đây",
+              "note": "Câu lọc bắt buộc: dưới 3 điểm thì chưa nên vào Music",
+              "labels": {
+                "1": "Không đúng",
+                "2": "Ít đúng",
+                "3": "Tương đối đúng",
+                "4": "Đúng",
+                "5": "Rất đúng"
+              }
+            }
+          ]
+        },
+        {
+          "id": "vn_beauty",
+          "title": "Nhóm C — Tín hiệu Beauty (tối đa 25 điểm)",
+          "color": "#f5457c",
+          "questions": [
+            {
+              "id": "C1",
+              "text": "Ngoại hình và gu thẩm mỹ là điểm mạnh rõ ràng nhất",
+              "labels": {
+                "1": "Không đúng",
+                "2": "Ít đúng",
+                "3": "Tương đối đúng",
+                "4": "Đúng",
+                "5": "Rất đúng"
+              }
+            },
+            {
+              "id": "C2",
+              "text": "Đầu tư nghiêm túc vào trang phục, makeup và bối cảnh theo chủ đề",
+              "labels": {
+                "1": "Không đúng",
+                "2": "Ít đúng",
+                "3": "Tương đối đúng",
+                "4": "Đúng",
+                "5": "Rất đúng"
+              }
+            },
+            {
+              "id": "C3",
+              "text": "Thích đóng một nhân vật cố định hơn là xuất hiện với chính mình mỗi ngày",
+              "labels": {
+                "1": "Không đúng",
+                "2": "Ít đúng",
+                "3": "Tương đối đúng",
+                "4": "Đúng",
+                "5": "Rất đúng"
+              }
+            },
+            {
+              "id": "C4",
+              "text": "Sẵn sàng làm các nghi thức tương tác fan lặp lại: viết tên, vinh danh, bức tường trái tim",
+              "note": "Điểm thấp báo hiệu cần bắt đầu từ Camp 2 Fan Service",
+              "labels": {
+                "1": "Không đúng",
+                "2": "Ít đúng",
+                "3": "Tương đối đúng",
+                "4": "Đúng",
+                "5": "Rất đúng"
+              }
+            },
+            {
+              "id": "C5",
+              "text": "Thấy khó khi phải nói chuyện liên tục nhiều giờ mà không có cấu trúc",
+              "note": "Điểm cao ở đây là tín hiệu Beauty/NPC, không phải điểm trừ",
+              "labels": {
+                "1": "Không đúng",
+                "2": "Ít đúng",
+                "3": "Tương đối đúng",
+                "4": "Đúng",
+                "5": "Rất đúng"
+              }
+            }
+          ]
+        }
+      ],
+      "lane_analysis": {
+        "lane_labels": {
+          "vn_npc": "NPC",
+          "vn_music": "Music",
+          "vn_beauty": "Beauty"
+        },
+        "lane_priority": [
+          "vn_npc",
+          "vn_beauty",
+          "vn_music"
+        ],
+        "clear_niche_min_score": 18,
+        "clear_niche_min_gap": 4,
+        "dual_niche_max_gap": 3,
+        "foundation_missing_max": 12,
+        "high_group_threshold": 18,
+        "clear_niche": {
+          "label": "Ngách rõ nét",
+          "color": "#2ecc71",
+          "desc_template": "Kích hoạt ngay Playbook chuyên sâu của tuyến {lane}. Tuyệt đối không thử nghiệm dàn trải làm loãng định vị."
+        },
+        "dual_niche": {
+          "label": "Ngách kép",
+          "color": "#f5a623",
+          "desc_template": "Chọn {primary} làm ngách chính (chi phí vận hành thấp hơn). {secondary} đóng vai trò \"gia vị\" — đưa vào khoảng 1 buổi/tuần."
+        },
+        "foundation_missing": {
+          "label": "Thiếu nền tảng",
+          "color": "#e74c3c",
+          "desc": "Đưa Creator vào chuỗi NPC Basic (2 tuần) để rèn luyện kỷ luật lên sóng và phản xạ tương tác, sau đó tiến hành đánh giá lại."
+        },
+        "fallback": {
+          "label": "Tuyến nổi trội nhưng chưa đủ mạnh",
+          "color": "#4a90d9",
+          "desc": "Có 1 tuyến nhỉnh hơn hẳn nhưng chưa đạt ngưỡng để kích hoạt Playbook chuyên sâu ngay. Tiếp tục theo dõi và phát triển thêm tuyến dẫn đầu trước khi cam kết ngách."
+        },
+        "warnings": [
+          {
+            "group_id": "vn_music",
+            "check_question_id": "B5",
+            "threshold": 3,
+            "message": "⚠️ Cảnh báo thiếu kỷ luật: Nhóm Music có điểm cao nhưng B5 ≤ 3 điểm — chưa vội đẩy vào ngách Music. Ngách này đòi hỏi sức bền cao; thiếu kỷ luật lịch LIVE sẽ dẫn đến gãy kênh sau 3 tuần."
+          },
+          {
+            "group_id": "vn_beauty",
+            "check_question_id": "C4",
+            "threshold": 3,
+            "message": "⚠️ Chệch trọng tâm: Nhóm Beauty có điểm cao nhưng C4 ≤ 3 điểm — chọn đúng ngách Beauty nhưng thiếu Fan-service. Cần bắt đầu từ Camp 2 (Xây dựng trải nghiệm Fan) trước khi chi thêm tiền cho hình ảnh."
+          }
+        ]
+      }
+    }
+  }
+}
